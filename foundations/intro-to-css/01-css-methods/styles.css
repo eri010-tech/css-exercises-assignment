@@ -5,3 +5,7 @@ div {
     background-color: red;
     font-size: 32px
 }
+body {
+    text-align: center;
+    font-weight: bold;
+}
