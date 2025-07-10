@@ -1,0 +1,16 @@
+.first-element {
+    color: #ffffff;
+    background-color: #ff00ff;
+}
+
+.second-element {
+    background-color: #00ff00;
+}
+
+/* The above two are classes and the code below is a grouping selector */
+
+.first-element,
+.second-element {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
