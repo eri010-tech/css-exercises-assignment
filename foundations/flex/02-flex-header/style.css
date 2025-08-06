@@ -2,18 +2,9 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: center;
-  align-items: center; 
+  justify-content: space-evenly;
+  align-items: center;
 }
-
-.left-links {
-  margin-left: 20px;
-}
-
-.right-links {
-  margin-right: 20px;
-}
-
 
 .logo {
   font-size: 48px;
@@ -30,6 +21,21 @@ ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.one,
+.two,
+.three {
+  margin: 10px;
+}
+
+.four,
+.five,
+.six {
+  margin: 10px;
 }
 
 a {
