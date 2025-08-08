@@ -1,12 +1,20 @@
+/* after completing the assignment and 
+looking at the solutions, I'm leaving 
+my "incorrect code" as comments. This way
+I can correct my work, while still being 
+able to have my original code. */ 
+
 .header {
   font-family: monospace;
   background: papayawhip;
+  padding: 8px;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
   align-items: center;
-  padding-top: 5px; 
+  /* padding-top: 5px; 
   padding-bottom: 5px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap; */
 }
 
 .logo {
@@ -15,23 +23,26 @@
   color: tomato;
   background: white;
   padding: 4px 32px;  
-  margin-left: auto;
+  /* margin-left: auto;
   margin-right: auto; 
-  flex-shrink: 0; 
+  flex-shrink: 0; */
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
 
-.one-two-three-container,
+/* .one-two-three-container,
 .four-five-six-container {
   display: flex;
   justify-content: space-evenly; 
 }
+*/ 
 
 a {
   font-size: 22px;
@@ -39,6 +50,6 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  margin: 10px;
-  flex-shrink: 0; 
+  /* margin: 10px;
+  flex-shrink: 0; */
 }
