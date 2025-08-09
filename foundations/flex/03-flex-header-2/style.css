@@ -2,6 +2,12 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+/* after completing the assignment and 
+looking at the solutions, I'm leaving 
+my "incorrect code" as comments. This way
+I can correct my work, while still being 
+able to have my original code. */ 
+
 body {
   margin: 0;
   background: #eee;
@@ -14,16 +20,18 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between; 
-  align-items: center;
-  padding-left: 8px;
-  padding-right: 8px; 
+  /* align-items: center; */
+  /* padding-left: 8px;
+  padding-right: 8px; */
+  padding: 8px;
   margin-top: 20px;
   margin-bottom: 5000px;
 }
 
 .left-side-content {
   display: flex;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  align-items: center;
   gap: 16px;
 } 
 
@@ -48,10 +56,11 @@ body {
 
 .right-side-content {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  width: 250px;
-  height: 40px;
+ /* width: 250px;
+  height: 40px; */
+  gap: 8px;
 } 
 
 button {
@@ -74,6 +83,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  column-gap: 16px; 
+  gap: 16px; 
+  margin: 0; 
   padding: 0;
 }
