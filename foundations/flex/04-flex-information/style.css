@@ -2,14 +2,17 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+
 img {
   width: 100px;
   height: 100px;
+  border: 2px solid #000000; 
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  border: 2px solid #eb4034;
 }
 
 /* do not edit this footer */
