@@ -65,3 +65,10 @@ that they are all flexboxes. then use align-items to center it!! goodluck :) */
   justify-content: center;
   background: #eee;
 }
+
+
+.temp {
+  font-size: 50px;
+  font-family: "san-serif";
+  background-color: yellow; 
+}
