@@ -1,6 +1,13 @@
+/* after completing the assignment and 
+looking at the solutions, I'm leaving 
+my "incorrect code" as comments. This way
+I can correct my work, while still being 
+able to have my original code. */
+
 body {
   font-family: 'Courier New', Courier, monospace;
   margin-bottom: 1000px;
+  text-align: center;
 }
 
 img {
@@ -23,15 +30,7 @@ img {
   justify-content: center;
 }
 
-.box-one {
-  flex-basis: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-.box-two,
+.box-one,
 .box-two,
 .box-three,
 .box-four {
@@ -39,11 +38,13 @@ img {
   display: flex; 
   flex-direction: column;
   align-items: center;
+  max-width: 200px;
 }
 
-.text {
+/* .text {
   text-align: center;
 }
+  */
 
 /* do not edit this footer */
 .footer {
