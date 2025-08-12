@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* after completing the assignment, I deleted my 
+original code because it was messy and confusing.
+I reviewed the solutions and copied it here. */
+
 html, body {
   height: 100%;
 }
@@ -20,6 +24,9 @@ body {
   width: 480px; 
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2); 
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -33,7 +40,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0; 
 } 
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px; 
+}
+
+.text {
+  margin-bottom: 16px;
+}
 
 .close-button {
   background: #eee;
@@ -48,7 +69,6 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  margin-right: 10px;
 }
 
 button {
@@ -69,40 +89,3 @@ button.cancel {
   color: royalblue;
 }
  
-.full-container {
-  display: flex;
-}
-
-.icon-container {
-  margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 5px;
-}
-
-.header {
-  font-weight: bold;
-  font-size: 20px;
-}
-.text {
-  margin-top: 8px;
-  margin-left: 5px;
-  margin-right: 15px;
-}
-
-.third-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 15px; 
-  margin-left: 5px;
-  margin-right: 3px;
-}
-
-.fourth-container {
-  margin-bottom: 15px; 
-}
-
-.fifth-container { 
-  margin-bottom: 15px;
-  margin-left: 5px;
-}
