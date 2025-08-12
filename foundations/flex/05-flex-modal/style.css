@@ -68,7 +68,7 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
-
+ 
 .full-container {
   display: flex;
 }
@@ -95,6 +95,7 @@ button.cancel {
   align-items: center;
   margin-top: 15px; 
   margin-left: 5px;
+  margin-right: 3px;
 }
 
 .fourth-container {
