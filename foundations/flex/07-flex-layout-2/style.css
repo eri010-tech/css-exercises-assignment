@@ -9,15 +9,13 @@ body {
 
 ul {
   list-style: none;
-  border: 2px solid #000000;
   padding: 0;  
 }
 
 a {
   text-decoration: none;
   color: #ffffff; 
-  font-size: 24px;
-  border: 2px solid #ff0000; 
+  font-size: 24px; 
 }
 
 .header {
@@ -56,14 +54,20 @@ a {
   box-sizing: border-box;
   border: 2px solid #00ff00; 
   flex-shrink: 0; 
+  padding-left: 16px;
 }
 
 .large-card-container {
   border: 2px solid #f24916;
+  display: flex;
+  /*flex-wrap: ;*/
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
+  border-radius: 4px; 
+  /*width: 300px;
+  height: 200px;
+  */
 }
